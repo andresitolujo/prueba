@@ -1,0 +1,34 @@
+@import "nib"
+vendor-prefiexes = webkit o ms moz official
+color_verde = #c4c4c4
+
+body
+	font-size 10px
+
+.general_container
+	display inline-block
+	border 3px solid red
+	.container1
+		margin 2px
+		padding 4px 5px 2px 3px
+		//border 2px solid red
+		background-color yellow
+		//ckground linear-gradient(right, white 20%, black, red, green,  color_verde)
+	.container2
+		border 2px solid green
+		margin-top .5em
+.left
+	float left
+.right
+	float right
+.relative
+	position relative
+.small
+	width auto
+
+@media screen and (min-width:480px)
+	.medium
+		font-size 20px
+@media screen and (min-width:1024px)
+	.large
+		font-size 60px
